@@ -9,6 +9,10 @@ header {
       border-color: black;
 }
 
+.info {
+  background-color: lightgray;
+}
+
 body {
     background-color: white;
     font-size: 15px;
@@ -23,12 +27,15 @@ h1 {
   color: black;
 }
 
-
-
 footer {
    font-size: 12px;
    color: black;
     text-align: center;
     vertical-align: middle;
     margin-top: 50;
+}
+
+img {
+  padding: 20px;
+  padding-bottom: 20px;
 }
