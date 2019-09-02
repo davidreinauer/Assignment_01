@@ -3,6 +3,12 @@ header {
     vertical-align: middle;
 }
 
+.table-striped {
+      color: black;
+      background-color: rgb(219, 139, 139);
+      border-color: black;
+}
+
 body {
     background-color: white;
     font-size: 15px;
@@ -16,6 +22,8 @@ body {
 h1 {
   color: black;
 }
+
+
 
 footer {
    font-size: 12px;

@@ -13,27 +13,113 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
 
-    <title>Another placeholder</title>
+    <title>Book list</title>
   <header>
     <div>
-      <nav class="nav">
-        <a class="nav-link active" href="index.html">About us</a>
-        <a class="nav-link" href="placeholder1.html">Placeholder 1</a>
-        <a class="nav-link" href="placeholder2.html">Placeholder 2</a>
-      </nav>
+        <nav class="navbar navbar-default navbar-expand-lg navbar-light bg-light row">
+              <div class="navbar-header">
+                  <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+              </div>
+              <div class="collapse navbar-collapse" id="menu">
+                  <ul class="nav navbar-nav white">
+                      <li>
+                          <a class="nav-link" href="index.html"><strong>About me</strong></a>
+                      </li>
+                      <li>
+                      <a class="nav-link" href="placeholder1.html"><strong>Hobbies</strong></a>
+                      </li>
+                      <li>
+                      <a class="nav-link" href="placeholder2.html"><strong>Favorite Books</strong></a>
+                      </li>
+                  </ul>
+              </div>
+        </nav>
     </div>
   </header>
 
   </head>
   <body>
 
-    <h1>Placeholder Page 2 YAY</h1>
+    <h1>My favorite books ever!</h1>
 
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 headervert centeralign">
-        <img src="/static/ISF-images/instagram.png" alt="A turtle" height="75">
-        <img src="/static/ISF-Images/twitter.png" alt="Another one" height="75">
     </div>
-    <div><p>An article about turtles. For sure turtles.</p></div>
+    <div><p>The following books are either actually my favorite books
+      or I am planning to read them some time soon.</p></div>
+
+    <div>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Book Title</th>
+            <th>Author</th>
+            <th>Publisher</th>
+            <th>Year</th>
+            <th>Page Count</th>
+            <th>MSRP</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Lord of the Rings</td>
+            <td>J.R.R. Tolkien</td>
+            <td>Fantasy Books</td>
+            <td>1954</td>
+            <td>700</td>
+            <td>25.99</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>The Hobbit</td>
+            <td>J.R.R. Tolkien</td>
+            <td>Fantasy Books</td>
+            <td>1937</td>
+            <td>800</td>
+            <td>29.99</td>
+          </tr>
+          <th scope="row">3</th>
+          <td>Harry Potter</td>
+          <td>J.K. Rowling</td>
+          <td>Best Books</td>
+          <td>2000</td>
+          <td>678</td>
+          <td>19.99</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Heidi</td>
+          <td>Johanna Spyri</td>
+          <td>Beste Buecher</td>
+          <td>1880</td>
+          <td>250</td>
+          <td>18.95</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+        <form>
+          <fieldset>
+              <legend>New inputs</legend>
+              <label>Book title: <input type="text" name="book_title"></label>
+              <label>Author: <input type="text" name="author_name"></label>
+              <label>Publisher: <input type="text" name="publisher"></label>
+              <label>Year published: <input type="year" name="year_published"></label>
+              <label>Page count: <input type="number" name="page_count"></label>
+              <label>MSRP: <input type="number" name="msrp"></label>
+              <br><input type="submit" value="Submit">
+          </fieldset>
+
+        </form>
+      </div>
+
+
   </body>
 
   <footer>
