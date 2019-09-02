@@ -11,6 +11,8 @@ header {
 
 .info {
   background-color: lightgray;
+  border: gray;
+  padding: 10px;
 }
 
 body {
@@ -29,6 +31,7 @@ h1 {
 
 footer {
    font-size: 12px;
+   background-color: white;
    color: black;
     text-align: center;
     vertical-align: middle;
